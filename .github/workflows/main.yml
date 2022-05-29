@@ -35,11 +35,11 @@ jobs:
             with:
               # relative path to the place where source code with Dockerfile is located
               context: .
+              file: ./Dockerfile
               # Note: tags has to be all lower-case
-              tags: |
-                fatalix/face-recognition-base:latest
+              tags: ${{ secrets.DOCKERHUB_USERNAME }}/face-recognition-base:latest
               # build on feature branches, push only on main branch
-              push: ${{ github.ref == 'refs/heads/main' }}
+              push: ${{ github.ref == 'refs/heads/release' }}
 
           - name: Image digest
             run: echo ${{ steps.docker_build.outputs.digest }}
