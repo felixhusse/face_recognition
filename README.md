@@ -14,8 +14,8 @@ you do face recognition on a folder of images from the command line!
 
 
 [![PyPI](https://img.shields.io/pypi/v/face_recognition.svg)](https://pypi.python.org/pypi/face_recognition)
-[![Build Status](https://github.com/ageitgey/face_recognition/workflows/CI/badge.svg?branch=master&event=push)](https://github.com/ageitgey/face_recognition/actions?query=workflow%3ACI)
-[![Documentation Status](https://readthedocs.org/projects/face-recognition/badge/?version=latest)](http://face-recognition.readthedocs.io/en/latest/?badge=latest)
+
+[![Build Status](https://github.com/felixhusse/face_recognition/workflows/Build%20and%20Publish/badge.svg?branch=release&event=push)]
 
 ## Features
 
